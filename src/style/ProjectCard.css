@@ -1,0 +1,13 @@
+.card{
+    color: white;
+    margin: 50px;
+}
+.card a{
+    /* text-decoration: nones; */
+    color: white;
+}
+@media only screen and (max-width:400px){
+ .card{
+    margin: 50px 3vw;
+ }   
+}

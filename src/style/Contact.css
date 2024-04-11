@@ -1,0 +1,64 @@
+.contact-page{
+    width: 50vw;
+    border: 1px solid white;
+    border-radius: 5px;
+    height: 400px;
+    margin: 0px auto;
+    margin-top: 120px;
+   
+   
+}
+form{
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form div{
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0px;
+}
+label{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+input{
+    width: 250px;
+    height: 40px;
+    font-size: 15px;
+    border: 0px;
+    border-radius: 4px;
+    outline: none;
+    padding: 5px;
+    cursor: pointer;
+    
+}
+button{
+    width: 100px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.25s linear;
+    margin: 15px 0px;
+}
+button:hover{
+    transform: scale(0.8);
+}
+@media only screen and (max-width:600px){
+    .contact-page{
+        width: 90vw;
+    }
+}
+@media only screen and (max-width:370px){
+    input{
+        width: 80vw;
+        height: 25px;
+    }
+    .contact-page{
+        height: 350px;
+    }
+}

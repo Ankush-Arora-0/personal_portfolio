@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+.about-page{
+    margin-top: 70px;
+    width: 100vw;
+    color: white;
+    font-family: "Raleway", sans-serif;
+    box-sizing: border-box;
+    padding-bottom: 20px;
+
+}
+
+.about-page em{
+    display: block;
+    font-size: 25px;
+    width: 70vw;
+    margin: 0px auto;
+    text-align:justify;
+    margin-top: 100px;
+}
+.skillbox{
+    width: 70vw;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+}
+.skillbox h4{
+    font-size: 30px;
+    margin: 5px;
+    font-weight: 400;
+    width: 100%;
+    text-align: center;
+}
+.skillbox i{
+    width:210px;
+    margin: 4px 0px;
+    
+}
+.skillbox i span{
+    position: relative;
+    width: 100px;
+    height: 100%;
+    margin-left: 10px;
+}
+.yellow::after,.green::after,.red::after{
+    content: '';
+    background-color: red;
+    position: absolute;
+    left: 0px;
+    top: 45%;
+    width: 40px;
+    height: 2px;
+}
+.yellow::after{
+    background-color: yellow !important;
+    width: 70px;
+}
+.green::after{
+    background-color: green !important;
+    width: 100px;
+}
+.instruction-box{
+    width: 70vw;
+    margin: 10px auto;
+    color: white;
+    text-align: justify;
+    padding: 10px 0px;
+}
+.footerline{
+    border: 1px solid white;
+    width: 70vw;
+    margin: 20px auto;
+}
+@media only  screen and (max-width:500px){
+    .about-page em{
+        width: 94vw;
+        margin: 20px 3vw;
+        font-size: 20px;
+    }
+    .about-page{
+        margin-top: 100px;
+    }
+    .skillbox{
+        width: 90vw;
+    }
+    .instruction-box{
+        width: 90vw;
+    }
+}

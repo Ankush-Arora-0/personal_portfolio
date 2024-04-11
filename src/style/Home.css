@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+.home-page{
+    display: flex;
+    margin: 0px 20px;
+    margin-top: 100px;
+    padding-bottom: 100px;
+
+}
+.leftHbox{
+    width: 60vw;
+     border-radius: 15px;
+    height: 400px;
+    color: white;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    
+}
+.box-top{
+    margin: 0px !important;
+    font-size: 25px !important;
+}
+.name{
+    font-size: 35px;
+    font-weight: 400;
+    margin: 5px 0px;
+    margin-bottom: 60px;
+    display: inline-block;
+    width: 250px;
+    border-right: 2px solid white;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 5s steps(15) infinite,
+    cursor .4s step-end infinite alternate  ;
+    animation-delay: 2s;
+}
+@keyframes cursor{
+    50%{ border-color: transparent ;}
+}
+@keyframes typing{
+    from { width: 0}
+}
+
+.leftHbox p{
+    margin: 10px 0px;
+    font-size: 20px;
+}
+.name strong{
+    color: aqua;
+    font-size: 50px;
+    font-weight: 400;
+}
+.rightHbox{
+    width: 28vw;
+    height: 28vw;
+    border: 5px solid white;
+    border-radius: 50%;
+    margin: 0px auto;
+    background-color: rgba(255, 255, 255, 0.185);
+    box-shadow: 0px 0px 8px 6px rgb(0, 255, 255);
+}
+.rightHbox img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50% ;
+    /* transform: scale(1.4); */
+}
+@media only  screen and (max-width:600px){
+    .rightHbox{
+        display: none;
+    }
+    .leftHbox{
+        width: 100vw;
+    }
+}
+@media only screen and (min-height:700px){
+    .home-page{
+        height: 100vh;
+    }
+}

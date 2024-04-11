@@ -1,0 +1,5 @@
+export  const data = [{name:"Ecommerce Website",link:"https://fullcommerceweb.onrender.com",about:'It is a Ecommerce website which live created by me as a  practice project. '},
+{name:"To do list Website",link:"https://ankush-arora-0.github.io/todolists/",about:'It is a Todo List website which live created by me as a  practice project. '},
+{name:"Stats Calculator",link:"https://ankush-arora-0.github.io/stats/",about:'It is a Stats Calculator website which live created by me as a practice  project. '},
+{name:"Weatherforecasts Website",link:"https://ankush-arora-0.github.io/weatherforecasts/",about:'It is a Weatherforecast website which live created by me as a  practice project. '},
+{name:"Business Website",link:"https://ankush-arora-0.github.io/firsthost/",about:'It is a Business website which live created by me as a  practice project. '}]
