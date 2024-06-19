@@ -1,5 +1,4 @@
-export  const data = [{name:"Ecommerce Website",link:"https://fullcommerceweb.onrender.com",about:'It is a Ecommerce website which live created by me as a  practice project. '},
-{name:"To do list Website",link:"https://ankush-arora-0.github.io/todolists/",about:'It is a Todo List website which live created by me as a  practice project. '},
-{name:"Stats Calculator",link:"https://ankush-arora-0.github.io/stats/",about:'It is a Stats Calculator website which live created by me as a practice  project. '},
-{name:"Weatherforecasts Website",link:"https://ankush-arora-0.github.io/weatherforecasts/",about:'It is a Weatherforecast website which live created by me as a  practice project. '},
-{name:"Business Website",link:"https://ankush-arora-0.github.io/firsthost/",about:'It is a Business website which live created by me as a  practice project. '}]
+export  const data = [{name:"Ecommerce Website",link:"https://fullcommerceweb.onrender.com",about:'It is a Ecommerce website which is live and created by me as a  practice project. '},
+                      {name:"Pet Selling Store",link:"https://petstore-5myt.onrender.com/",about:'It is a Pet Selling Store which live and created by me as a practice project.'},
+                      {name:"Resume Builder",link:"https://resumebuilder-s6ur.onrender.com/",about:'It is a Resume Builder which provides you the PDF of your resume created by me as a practice project.'}]
+]
