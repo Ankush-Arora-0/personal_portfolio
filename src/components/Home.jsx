@@ -7,7 +7,7 @@ export const Home = () => {
       <div className="leftHbox">
         <p className='box-top'>Hi! it's</p>
         <h3 className='name'><strong>A</strong>nkush Arora</h3>
-        <p>Welcome to my digital haven, where creativity meets functionality</p><br />
+        <p>Welcome to my digital heaven, where creativity meets functionality</p><br />
         <p>Elevating your online presence with innovative design solutions.</p>
       </div>
       <div className="rightHbox">
